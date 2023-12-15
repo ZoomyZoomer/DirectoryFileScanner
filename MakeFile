@@ -1,0 +1,17 @@
+OBJS    = words.o
+SOURCE  = words.c
+OUT     = words
+CC      = gcc
+CFLAGS  = -g -Wall
+LFLAGS  =
+
+all: $(OUT)
+
+$(OUT): $(OBJS)
+	$(CC) $(CFLAGS) $^ -o $@ $(LFLAGS)
+
+words.o: words.c
+	$(CC) $(CFLAGS) -c $<
+
+clean:
+	rm -f $(OBJS) $(OUT)
