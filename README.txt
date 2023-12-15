@@ -18,16 +18,16 @@ then scan for more txt files and subdirectories etc.
 
 Test Plan:
 
-Uncomment THE test cases in the main function to run them.
+Uncomment the test cases in the main function to run them.
 
-Test 1: In our first test we check if simple characters such as '.' , ',' , etc. are able to separate different words within a given textfile.
+Test 1: In the first test we check if simple characters such as '.' , ',' , etc. are able to separate different words within a given textfile.
 
-Test 2: In our second test, we check if dashes (-) and apostrophes (') are able to connect words together to form a singular word (Ex: tes-t)
+Test 2: In the second test, we check if dashes (-) and apostrophes (') are able to connect words together to form a singular word (Ex: tes-t)
 We also make sure to check if an apostrophes and dash is placed side by side, that the proper output is given (Ex: test-'t should print test and 't)
 
-Test 3: In our third test, we check if our program is able to scan a directory (without traversing subdirectories) for txt files, open them, and then process them
+Test 3: In the third test, we check if the program is able to scan a directory (without traversing subdirectories) for txt files, open them, and then process them
 
-Test 4: In our third and final test, we check to see if our program can traverse subdirectories and parse the txt files within them.
+Test 4: In the third and final test, we check to see if the program can traverse subdirectories and parse the txt files within them.
 
 [Directories and subdirectories used for testing are included in the .tar file]
 
